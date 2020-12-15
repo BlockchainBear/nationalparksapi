@@ -16,7 +16,7 @@ function getPark(state,limit) {
         }
       
     });
-  };
+  }; 
   
   function displayResults(responseJson) {
     // clear previous results if any
@@ -46,5 +46,5 @@ function getPark(state,limit) {
     });
   };
    
-  
+
   $(watchForm);
